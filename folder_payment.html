@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+    <form action="" method="get">
+        <h1>Payment Form</h1>
+        <hr>
+        <h2>User information</h2>
+        <p>Name: *
+            <input type="text" required name="name"  placeholder="Your name"> 
+        </p>
+        <p>
+            <fieldset>
+                <legend>Gender</legend>
+                Male <input type="radio" name="gender" id="male" value="M" required> Female 
+            </fieldset>
+        </p>
+        <p>
+            Address:
+         <textarea placeholder="Enter Your Text" name="" id=""></textarea>
+        </p>
+        <p>Required Fields are followed by *</p>
+        <h2>Contact Information </h2>
+        <p>Name:* 
+            <input type="text" name="name" placeholder="Your name"></p>
+        <p>
+            <fieldset>
+                <legend>Gender*</legend>
+            Female <input type="radio" name="gender" id="female " required>
+            Male <input type="radio" name="gender" id="male "required>
+        </p>
+        </fieldset>
+        <p>Address : <textarea placeholder="Your Address" name="address" id="address" cols="100" rows="8"></textarea></p>
+        <p>Email: <input placeholder="m89348346@gmail.com" type="email" name="email" id="Email"></p>
+        <p>Pincode : <input placeholder="*****" type="number" name="pincode" id="pincode"></p>
+        <h2>Payment information </h2>
+        <p>Card Type: 
+            <select name="card_type" id="card_type">
+                <option value="">--Select a card Type--</option>
+                <option value="visa">Visa</option>
+                <option value="Atm card">Atm card</option>
+                <option value="Easy paisa">Easy paisa</option>
+                <option value="Jazz cash">Jazz cash</option>
+
+            </select>
+        </p>
+        <p>
+            Card Number: <input placeholder="1111-2222-3333-4444" type="number" name="card_Number" id="card_Number">
+        </p>
+        <p>
+            Expairation date: <input type="date" name="exp_date" id="exp_date">
+        </p>
+        <p>CVV : <input placeholder="123" type="password" name="cvv" id="cvv"></p>
+        <input type="submit" value="Pay Now">
+    </form>
+</body>
+</html>
