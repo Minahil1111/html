@@ -19,7 +19,7 @@
         <p>
             <fieldset>
                 <legend>Gender</legend>
-                Male <input type="radio" name="gender" id="male" value="M" required> hhFemale <input type="radio" name="gender" id="Fmale" value="F" required>
+                Male <input type="radio" name="gender" id="male" value="M" required> Female <input type="radio" name="gender" id="Fmale" value="F" required>
 
             </fieldset>
         </p>
@@ -27,14 +27,23 @@
             Address:
          <textarea placeholder="Enter Your Address" name="Address" id="Address" cols="100">
         </p>
-        <p>Email:
+        <p>
+            Email:
             <input type="email" name="email" id="email" required placeholder="Minahil.irfan2010@gmail.com">
         </p>
         <p>
             Pincode:
             <input type="number" name="pincode" id="pincode" placeholder="123456">
         </p>
-        <p>
+        <h2>Payment Information</h2>
+        <p>Card Type:
+            <select name="card type" id="card_type" required>
+                <option value="">--Select card Type--</option>
+                <option value="visa">Visa</option>
+                <option value="mastercard">MasterCard</option>
+                <option value="rupay">Rupay</option>
+
+            </select>
 
         </p>
         <h2>Contact Information </h2>
